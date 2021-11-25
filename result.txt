@@ -1,0 +1,429 @@
+/apps/synopsys/VCS_current/vcs/R-2020.12/bin/vcs
+                         Chronologic VCS (TM)
+            Version R-2020.12 -- Fri Nov  5 17:14:44 2021
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+The design hasn't changed and need not be recompiled. 
+If you really want to, delete file simv.daidir/.vcs.timestamp and
+run VCS again.
+
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12; Runtime version R-2020.12;  Nov  5 17:14 2021
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test tnn...
+UVM_INFO twmem.sv(294) @ 0: uvm_test_top.seqr@@twmem [fun] We got to the sequence body
+=============== debug data =================
+- - - - - layer        0 - - - - -
+weights 000020 data 000000 result 000002
+width inputs    16 width outputs     8
+neuron index 000028
+neuron scaling   0 final_layer 01
+==> Layer        0 data
+    000000 item 000 0078f755 0.472524
+    000000 item 001 00598477 0.349678
+    000000 item 002 ffbb1b00 -0.269119
+    000000 item 003 ff8590cb -0.478259
+    000000 item 004 ff3c80ae -0.763662
+    000000 item 005 007d44f1 0.489333
+    000000 item 006 ffe5bcd7 -0.102587
+    000000 item 007 0085aeb7 0.522197
+    000000 item 008 0085c424 0.522524
+    000000 item 009 001e2407 0.117737
+    000000 item 00a 0012cbe5 0.073424
+    000000 item 00b 00f883f8 0.970764
+    000000 item 00c 00b616d8 0.711286
+    000000 item 00d ff3af78f -0.769660
+    000000 item 00e 00a33f05 0.637680
+    000000 item 00f 00294ab1 0.161296
+///// for next layer calculation for neuron           0
+ -> d 0078f755 w 05d2bc5e prod 0002c0688ec73d36 sum 000002c0688ec73d36
+   /f/  0.472524 5.823187 2.751595 sum 2.751595
+ -> d 00598477 w fdeddea5 prod ffff46a017bc92b3 sum 0000020708a683cfe9
+   /f/  0.349678 -2.070821 -0.724120 sum 2.027476
+ -> d ffbb1b00 w fc2d182f prod 000107713ce1f500 sum 0000030e79e365c4e9
+   /f/  -0.269119 -3.823850 1.029072 sum 3.056547
+ -> d ff8590cb w fe151538 prod 0000eac924bf5368 sum 000003f94308251851
+   /f/  -0.478259 -1.917645 0.917132 sum 3.973679
+ -> d ff3c80ae w fffb3d07 prod 000003a2e1eafac2 sum 000003fce5ea101313
+   /f/  -0.763662 -0.018600 0.014204 sum 3.987883
+ -> d 007d44f1 w fdadd346 prod fffedd4025f07ce6 sum 000002da2610008ff9
+   /f/  0.489333 -2.320995 -1.135740 sum 2.852143
+ -> d ffe5bcd7 w fc81585e prod 00005bc7bb9c3ef2 sum 00000335edcb9cceeb
+   /f/  -0.102587 -3.494745 0.358516 sum 3.210660
+ -> d 0085aeb7 w fd856f82 prod fffeb4a1dab711ee sum 000001ea8fa653e0d9
+   /f/  0.522197 -2.478767 -1.294405 sum 1.916254
+ -> d 0085c424 w 05874869 prod 0002e384f90392c4 sum 000004ce149f57739d
+   /f/  0.522524 5.528449 2.888748 sum 4.805002
+ -> d 001e2407 w fdb1b373 prod ffffba7ff4921425 sum 000004889493e987c2
+   /f/  0.117737 -2.305856 -0.271485 sum 4.533517
+ -> d 0012cbe5 w 069b0ee1 prod 00007c29e952ba45 sum 00000504be7d3c4207
+   /f/  0.073424 6.605696 0.485015 sum 5.018532
+ -> d 00f883f8 w f9b12908 prod fff9e05f4b5ed7c0 sum ffffffee51dc89b19c7
+   /f/  0.970764 -6.307968 -6.123546 sum -1.105014
+ -> d 00b616d8 w fb40d09a prod fffc9fa7de193df0 sum ffffffb84c5a6b457b7
+   /f/  0.711286 -4.746817 -3.376345 sum -4.481359
+ -> d ff3af78f w 04d5e731 prod fffc473c45a66b5f sum ffffff7cc01ec5ac316
+   /f/  -0.769660 4.835559 -3.721737 sum -8.203096
+ -> d 00a33f05 w 0600d504 prod 0003d401f3fc2514 sum ffffffba003e056e82a
+   /f/  0.637680 6.003250 3.828155 sum -4.374941
+ -> d 00294ab1 w 002c2ffd prod 0000072093f14fed sum ffffffba72474483817
+   /f/  0.161296 0.172607 0.027841 sum -4.347100
+res&psum ffffff0000000000000
+  Saturated sum is ffffffba72474483817
+neuronix 374 neuronoffset dd neuronaddr 000105 neuronbase 00000000
+f 03923a24 f^2 001981c6 f^3 0000b62e
+
+coefs 00df6d0800dc610a006b2dd40022315e00d8a48800d5c72f00680ea2002141f000d2101200cf5e97006505610020582500cbae1f00c925e70062118c001f73ea
+c0 00cbae1f c1 00c925e7 c2 0062118c c3 001f73ea
+calculated 0003457a 0.01277888
+sigmoid from psum   0.01277888
+///// for next layer calculation for neuron           1
+ -> d 0078f755 w fb401126 prod fffdc17146a15b9e sum ffffffdc17146a15b9e
+   /f/  0.472524 -4.749738 -2.244365 sum -2.244365
+ -> d 00598477 w 001a1ecc prod 0000092238f180d4 sum ffffffdca937f92dc72
+   /f/  0.349678 0.102032 0.035678 sum -2.208687
+ -> d ffbb1b00 w fb125b25 prod 000153885ea3e700 sum fffffff1e1bde36c372
+   /f/  -0.269119 -4.928297 1.326300 sum -0.882387
+ -> d ff8590cb w 05fd73cd prod fffd229cad9f238f sum ffffffc40b88bd5e701
+   /f/  -0.478259 5.990048 -2.864797 sum -3.747184
+ -> d ff3c80ae w 059ba919 prod fffbb7a42d356efe sum ffffff7f85cb90b55ff
+   /f/  -0.763662 5.608049 -4.282651 sum -8.029835
+ -> d 007d44f1 w 030d6712 prod 00017e5dc2c8cff2 sum ffffff976ba7bd425f1
+   /f/  0.489333 3.052354 1.493618 sum -6.536217
+ -> d ffe5bcd7 w fdd7b593 prod 000038a873007275 sum ffffff9af62eed49866
+   /f/  -0.102587 -2.157386 0.221320 sum -6.314897
+ -> d 0085aeb7 w 0519d886 prod 0002a9e8b442dbca sum ffffffc594ba3177430
+   /f/  0.522197 5.100960 2.663707 sum -3.651190
+ -> d 0085c424 w fb08c1bb prod fffd67bea7b56a4c sum ffffff9c10a4accde7c
+   /f/  0.522524 -4.965794 -2.594747 sum -6.245937
+ -> d 001e2407 w fcef8e49 prod ffffa3a4471d27ff sum ffffff964ae91ea067b
+   /f/  0.117737 -3.064235 -0.360775 sum -6.606711
+ -> d 0012cbe5 w 05a62751 prod 00006a2e92806675 sum ffffff9cedd246a6cf0
+   /f/  0.073424 5.649037 0.414773 sum -6.191938
+ -> d 00f883f8 w 04e7eda2 prod 0004c335a4381af0 sum ffffffe9212c8a287e0
+   /f/  0.970764 4.905970 4.762537 sum -1.429401
+ -> d 00b616d8 w fc00cf53 prod fffd283817821008 sum ffffffbba4ae02497e8
+   /f/  0.711286 -3.996836 -2.842894 sum -4.272295
+ -> d ff3af78f w 00c5f679 prod ffff67a2cdcd6c97 sum ffffffb21edadf2047f
+   /f/  -0.769660 0.773292 -0.595172 sum -4.867467
+ -> d 00a33f05 w fc3e4fe9 prod fffd9ac0243ce68d sum ffffff8bcadd22eeb0c
+   /f/  0.637680 -3.756593 -2.395506 sum -7.262973
+ -> d 00294ab1 w 01268d5d prod 00002f8294699f4d sum ffffff8ec3066988a59
+   /f/  0.161296 1.150595 0.185586 sum -7.077386
+res&psum ffffff0000000000000
+  Saturated sum is ffffff8ec3066988a59
+neuronix 31d neuronoffset c7 neuronaddr 0000ef neuronbase 00000004
+f 0218334c f^2 0008c62d f^3 000024c1
+
+coefs 000e77c3000e747d000736df00026e30000e05e8000e02d50006fe3e00025b2e000d978c000d94a90006c758000248bf000d2c94000d29de00069220000236df
+c0 000d978c c1 000d94a9 c2 0006c758 c3 000248bf
+calculated 00003743 0.00084323
+sigmoid from psum   0.00084326
+///// for next layer calculation for neuron           2
+ -> d 0078f755 w ff95b9ce prod ffffcdc86b8c7366 sum fffffffcdc86b8c7366
+   /f/  0.472524 -0.415134 -0.196161 sum -0.196161
+ -> d 00598477 w 041addab prod 00016f76d33c367d sum 0000013d3f3ec8a9e3
+   /f/  0.349678 4.104945 1.435407 sum 1.239246
+ -> d ffbb1b00 w fbe4b2a7 prod 00011aecf7d49d00 sum 000002582c369d46e3
+   /f/  -0.269119 -4.106649 1.105178 sum 2.344425
+ -> d ff8590cb w 058cf985 prod fffd5867d03dac77 sum fffffffb09406daf35a
+   /f/  -0.478259 5.550682 -2.654666 sum -0.310241
+ -> d ff3c80ae w 03d9b32f prod fffd0f42479349f2 sum ffffffcbfd64e6e3d4c
+   /f/  -0.763662 3.850390 -2.940395 sum -3.250636
+ -> d 007d44f1 w 041c0c57 prod 000202cd5829b9e7 sum ffffffec2a3a697f733
+   /f/  0.489333 4.109563 2.010946 sum -1.239690
+ -> d ffe5bcd7 w ff1d0d5c prod 000017482e81c844 sum ffffffed9ebd519bf77
+   /f/  -0.102587 -0.886515 0.090945 sum -1.148745
+ -> d 0085aeb7 w fea0bc79 prod ffff48922fddf87f sum ffffffe227e04f7b7f6
+   /f/  0.522197 -1.372124 -0.716519 sum -1.865265
+ -> d 0085c424 w fe38dd73 prod ffff122e564a302c sum ffffffd34ac5b41e822
+   /f/  0.522524 -1.777871 -0.928980 sum -2.794245
+ -> d 001e2407 w 03813591 prod 000069a28b0edaf7 sum ffffffd9e4ee650c319
+   /f/  0.117737 3.504724 0.412636 sum -2.381609
+ -> d 0012cbe5 w 064ed2e3 prod 00007690f9b2a60f sum ffffffe14dfe0036928
+   /f/  0.073424 6.307905 0.463150 sum -1.918459
+ -> d 00f883f8 w 0340e5be prod 0003288bec7eca10 sum 0000013d6bcc823338
+   /f/  0.970764 3.253506 3.158385 sum 1.239926
+ -> d 00b616d8 w f93e5cb2 prod fffb31bb8f218230 sum ffffffc6f275ba3b568
+   /f/  0.711286 -6.756398 -4.805732 sum -3.565806
+ -> d ff3af78f w 05351b49 prod fffbfdf60b87acc7 sum ffffff86d1d672b622f
+   /f/  -0.769660 5.207448 -4.007964 sum -7.573770
+ -> d 00a33f05 w 01250073 prod 0000bad76a0e4f3f sum ffffff927f4d139b16e
+   /f/  0.637680 1.144538 0.729849 sum -6.843921
+ -> d 00294ab1 w faddf55e prod ffff2c0ce871d1fe sum ffffff85401b9ab836c
+   /f/  0.161296 -5.132975 -0.827928 sum -7.671849
+res&psum ffffff0000000000000
+  Saturated sum is ffffff85401b9ab836c
+neuronix 30a neuronoffset c2 neuronaddr 0000ea neuronbase 00000008
+f 0200dcd5 f^2 000806e8 f^3 00002029
+
+coefs 0007bf4b0007be5b0003de2f00014e250007824d0007816c0003bfc6000143e70007472f0007465b0003a24c000139f900070de300070d1c000385b900013059
+c0 0007824d c1 0007816c c2 0003bfc6 c3 000143e7
+calculated 00001e82 0.00046551
+sigmoid from psum   0.00046554
+///// for next layer calculation for neuron           3
+ -> d 0078f755 w fc6c84ad prod fffe4f69b522f871 sum ffffffe4f69b522f871
+   /f/  0.472524 -3.576101 -1.689793 sum -1.689793
+ -> d 00598477 w ff37e4ce prod ffffba07009393c2 sum ffffffe0970b5b68c33
+   /f/  0.349678 -0.781665 -0.273331 sum -1.963124
+ -> d ffbb1b00 w fe3912fa prod 00007a6de79e5e00 sum ffffffe83de9d54ea33
+   /f/  -0.269119 -1.777054 0.478240 sum -1.484884
+ -> d ff8590cb w 05d9c3b8 prod fffd33ae185db2e8 sum ffffffbb78cb5b29d1b
+   /f/  -0.478259 5.850643 -2.798125 sum -4.283009
+ -> d ff3c80ae w f97a060e prod 0004fb4bf13f1d84 sum 000000b2d8a6f1ba9f
+   /f/  -0.763662 -6.523345 4.981628 sum 0.698618
+ -> d 007d44f1 w 0109e6ed prod 0000821d5d62591d sum 00000134f6045413bc
+   /f/  0.489333 1.038680 0.508261 sum 1.206879
+ -> d ffe5bcd7 w f9688323 prod 0000ad1d6262d665 sum 000001e21366b6ea21
+   /f/  -0.102587 -6.591749 0.676230 sum 1.883109
+ -> d 0085aeb7 w fd1c5285 prod fffe7dbe0e6e6313 sum 0000005fd175254d34
+   /f/  0.522197 -2.889366 -1.508819 sum 0.374290
+ -> d 0085c424 w 0331ba9c prod 0001ab4878e9adf0 sum 0000020b19ee0efb24
+   /f/  0.522524 3.194254 1.669075 sum 2.043364
+ -> d 001e2407 w 02a18277 prod 00004f4c12b54d41 sum 0000025a6600c44865
+   /f/  0.117737 2.630897 0.309755 sum 2.353119
+ -> d 0012cbe5 w f9a56b27 prod ffff889205aec6e3 sum 000001e2f806730f48
+   /f/  0.073424 -6.353834 -0.466522 sum 1.886597
+ -> d 00f883f8 w 036dd7c9 prod 0003542d928ce5b8 sum 000005372598fff500
+   /f/  0.970764 3.429074 3.328820 sum 5.215417
+ -> d 00b616d8 w 02c74e6c prod 0001f9f139af7320 sum 0000073116d2af6820
+   /f/  0.711286 2.778540 1.976337 sum 7.191755
+ -> d ff3af78f w 028b55c8 prod fffe0ab182e8e2b8 sum 0000053bc855984ad8
+   /f/  -0.769660 2.544278 -1.958229 sum 5.233526
+ -> d 00a33f05 w 024ccd56 prod 00017777afca2cae sum 000006b34005627786
+   /f/  0.637680 2.300008 1.466670 sum 6.700196
+ -> d 00294ab1 w fb62a078 prod ffff417304cba2f8 sum 000005f4b30a2e1a7e
+   /f/  0.161296 -4.614739 -0.744339 sum 5.955857
+res&psum 0000000000000000000
+  Saturated sum is 0000005f4b30a2e1a7e
+neuronix 0be neuronoffset 2f neuronaddr 000057 neuronbase 00000008
+f 02598517 f^2 000b0ac4 f^3 000033e4
+
+coefs 3fd634b20029b002ffeb43840006bf703fd4e1f5002b00feffea9cc80006f5213fd38486002c5c8fffe9f0de00072c733fd21c0f002dc309ffe93f9e00076573
+c0 3fd4e1f5 c1 002b00fe c2 ffea9cc8 c3 0006f521
+calculated 00ff56a8 0.99741602
+sigmoid from psum   0.99741607
+///// for next layer calculation for neuron           4
+ -> d 0078f755 w fc8339df prod fffe5a2494f0600b sum ffffffe5a2494f0600b
+   /f/  0.472524 -3.487398 -1.647879 sum -1.647879
+ -> d 00598477 w fb5c69d8 prod fffe60ba4aa09368 sum ffffffcbadedf90f373
+   /f/  0.349678 -4.639010 -1.622157 sum -3.270037
+ -> d ffbb1b00 w f9b1ff90 prod 0001b25be4243000 sum ffffffe6d3ac3b52373
+   /f/  -0.269119 -6.304694 1.696715 sum -1.573322
+ -> d ff8590cb w 0650135d prod fffcfb18beb4aabf sum ffffffb68538269ce32
+   /f/  -0.478259 6.312795 -3.019154 sum -4.592476
+ -> d ff3c80ae w 0248c1b8 prod fffe41719d6fab10 sum ffffff9a9c51fd97942
+   /f/  -0.763662 2.284206 -1.744360 sum -6.336836
+ -> d 007d44f1 w fde7b1c0 prod fffef9915d1555c0 sum ffffff8a3567ceecf02
+   /f/  0.489333 -2.094944 -1.025126 sum -7.361962
+ -> d ffe5bcd7 w fe6a68bc prod 0000299bc47405e4 sum ffffff8ccf24162d4e6
+   /f/  -0.102587 -1.584339 0.162533 sum -7.199428
+ -> d 0085aeb7 w ffd6eef4 prod ffffea8e1dd2a86c sum ffffff8b7805f357d52
+   /f/  0.522197 -0.160416 -0.083769 sum -7.283197
+ -> d 0085c424 w 0534a129 prod 0002b854c1170dc4 sum ffffffb6fd5204c8b16
+   /f/  0.522524 5.205584 2.720043 sum -4.563154
+ -> d 001e2407 w 056d91f9 prod 0000a39aa9b401cf sum ffffffc136fca008ce5
+   /f/  0.117737 5.428009 0.639079 sum -3.924075
+ -> d 0012cbe5 w 0352e007 prod 00003e797145f343 sum ffffffc51e93b468028
+   /f/  0.073424 3.323731 0.244041 sum -3.680035
+ -> d 00f883f8 w 03c597dd prod 0003a95ce2393518 sum ffffffffb461d7fb540
+   /f/  0.970764 3.771848 3.661574 sum -0.018461
+ -> d 00b616d8 w 062a9a34 prod 000462d67e2a93e0 sum 0000045e1c9baa4920
+   /f/  0.711286 6.166415 4.386085 sum 4.367624
+ -> d ff3af78f w 057d166a prod fffbc68f6b83cb36 sum 00000024ac072e1456
+   /f/  -0.769660 5.488623 -4.224374 sum 0.143250
+ -> d 00a33f05 w fe64694b prod fffef989b8a08377 sum fffffff1e35bfce97cd
+   /f/  0.637680 -1.607768 -1.025242 sum -0.881992
+ -> d 00294ab1 w f907c614 prod fffee03626d5bbd4 sum ffffffdfe6be6a453a1
+   /f/  0.161296 -6.969634 -1.124174 sum -2.006166
+res&psum ffffff0000000000000
+  Saturated sum is ffffffdfe6be6a453a1
+neuronix 3bf neuronoffset ef neuronaddr 000117 neuronbase 0000000c
+f 0335f352 f^2 00149e25 f^3 00008465
+
+coefs 076be681068f962d0285094f006b04d207380a39066796ed027add4f006c8e3a07056b5d06403b6d0270916d006ddfe806d404c80619858502662aac006efc2b
+c0 076be681 c1 068f962d c2 0285094f c3 006b04d2
+calculated 001e59c1 0.11855704
+sigmoid from psum   0.11855704
+///// for next layer calculation for neuron           5
+ -> d 0078f755 w fb3d2643 prod fffdc0105aa0593f sum ffffffdc0105aa0593f
+   /f/  0.472524 -4.761135 -2.249750 sum -2.249750
+ -> d 00598477 w f9ffdcee prod fffde6d8f2986aa2 sum ffffffba6e94d38c3e1
+   /f/  0.349678 -6.000535 -2.098252 sum -4.348003
+ -> d ffbb1b00 w 03dd83da prod fffef5b3d325fe00 sum ffffffa9c9d205ec1e1
+   /f/  -0.269119 3.865293 -1.040225 sum -5.388227
+ -> d ff8590cb w 045c95df prod fffde9fb879347d5 sum ffffff88698a7f209b6
+   /f/  -0.478259 4.361662 -2.086006 sum -7.474233
+ -> d ff3c80ae w 04bec043 prod fffc6057667c2d8a sum ffffff4e6f00e6e3740
+   /f/  -0.763662 4.745121 -3.623666 sum -11.097900
+ -> d 007d44f1 w fdbcbf96 prod fffee48d8dd23436 sum ffffff3cb7d9c406b76
+   /f/  0.489333 -2.262702 -1.107215 sum -12.205115
+ -> d ffe5bcd7 w 06c7d261 prod ffff4ded4015eb77 sum ffffff3196adc5656ed
+   /f/  -0.102587 6.780554 -0.695599 sum -12.900713
+ -> d 0085aeb7 w feae5230 prod ffff4faa3d696050 sum ffffff2691519bfb73d
+   /f/  0.522197 -1.319058 -0.688809 sum -13.589522
+ -> d 0085c424 w f9af303a prod fffcb32d4bb13028 sum fffffef1c426570e765
+   /f/  0.522524 -6.315670 -3.300090 sum -16.889612
+ -> d 001e2407 w febc61ff prod ffffd9e5f0d089f9 sum fffffeef6285641715e
+   /f/  0.117737 -1.264130 -0.148835 sum -17.038447
+ -> d 0012cbe5 w 01341ac0 prod 0000169f46522dc0 sum fffffef0cc79c939f1e
+   /f/  0.073424 1.203533 0.088368 sum -16.950079
+ -> d 00f883f8 w ff42d69d prod ffff485e64aa3f18 sum fffffee5526013dde36
+   /f/  0.970764 -0.738913 -0.717310 sum -17.667389
+ -> d 00b616d8 w feef646f prod ffff3e19138847a8 sum fffffed933f14c625de
+   /f/  0.711286 -1.064874 -0.757430 sum -18.424819
+ -> d ff3af78f w 0268da9b prod fffe253b6f9ba995 sum fffffebb87a8461cf73
+   /f/  -0.769660 2.409586 -1.854562 sum -20.279381
+ -> d 00a33f05 w fef7395d prod ffff5728582901d1 sum fffffeb0fa2dc8ad144
+   /f/  0.637680 -1.034281 -0.659541 sum -20.938921
+ -> d 00294ab1 w fead39c1 prod ffffc95b685fb871 sum fffffead8fe44ea89b5
+   /f/  0.161296 -1.323337 -0.213449 sum -21.152370
+  Saturated sum is ffffff0080000000001
+neuronix 201 neuronoffset 80 neuronaddr 0000a8 neuronbase 00000004
+f 00000000 f^2 00000000 f^3 00000000
+
+coefs 00000084000000840000004200000016000000800000008000000040000000150000007c0000007c0000003e0000001500000078000000780000003c00000014
+c0 0000007c c1 0000007c c2 0000003e c3 00000015
+calculated 00000001 0.00000006
+sigmoid from psum   0.00000012
+///// for next layer calculation for neuron           6
+ -> d 0078f755 w fb3021cd prod fffdb9e9afb00411 sum ffffffdb9e9afb00411
+   /f/  0.472524 -4.811984 -2.273778 sum -2.273778
+ -> d 00598477 w fd020e07 prod fffef42a8b9f2141 sum ffffffcae143b4f2552
+   /f/  0.349678 -2.991973 -1.046226 sum -3.320004
+ -> d ffbb1b00 w 0184f738 prod ffff975263fae800 sum ffffffc45669f4a0d52
+   /f/  -0.269119 1.519397 -0.408899 sum -3.728903
+ -> d ff8590cb w 01e78877 prod ffff16d52e2f265d sum ffffffb5c3bcd7933af
+   /f/  -0.478259 1.904426 -0.910810 sum -4.639712
+ -> d ff3c80ae w 03109f36 prod fffda8d07f8f36b4 sum ffffff9050c4d086a63
+   /f/  -0.763662 3.064929 -2.340569 sum -6.980281
+ -> d 007d44f1 w 0443ba01 prod 00021637d3a75ef1 sum ffffffb1b4420afc954
+   /f/  0.489333 4.264557 2.086789 sum -4.893492
+ -> d ffe5bcd7 w 0140d209 prod ffffdf1680bc018f sum ffffffafa5aa16bcae3
+   /f/  -0.102587 1.253205 -0.128563 sum -5.022055
+ -> d 0085aeb7 w ff218147 prod ffff8bd050b4abc1 sum ffffffa862af22076a4
+   /f/  0.522197 -0.869121 -0.453853 sum -5.475907
+ -> d 0085c424 w 026a5e0c prod 0001431ca33269b0 sum ffffffbc9479552e054
+   /f/  0.522524 2.415498 1.262156 sum -4.213751
+ -> d 001e2407 w 02e18cd6 prod 000056d64d0cf1da sum ffffffc201de25fd22e
+   /f/  0.117737 2.881055 0.339207 sum -3.874544
+ -> d 0012cbe5 w fd3078d1 prod ffffcb2b6adbcdf5 sum ffffffbeb494d3ba023
+   /f/  0.073424 -2.810656 -0.206369 sum -4.080913
+ -> d 00f883f8 w 059914c0 prod 00056f2edbea5a00 sum 0000015a782925fa23
+   /f/  0.970764 5.597973 5.434309 sum 1.353396
+ -> d 00b616d8 w 02b23cfa prod 0001eaf4f15ceef0 sum 000003456d1a82e913
+   /f/  0.711286 2.696243 1.917800 sum 3.271196
+ -> d ff3af78f w 06a1473c prod fffae5ac3769ae84 sum ffffffe2b1951ec9797
+   /f/  -0.769660 6.629993 -5.102841 sum -1.831645
+ -> d 00a33f05 w 04f8573f prod 00032b58c36f353b sum 0000015672155bccd2
+   /f/  0.637680 4.970081 3.169323 sum 1.337678
+ -> d 00294ab1 w 01551812 prod 000037045facd872 sum 0000018d767508a544
+   /f/  0.161296 1.332399 0.214910 sum 1.552589
+res&psum 0000000000000000000
+  Saturated sum is 00000018d767508a544
+neuronix 031 neuronoffset 0c neuronaddr 000034 neuronbase 00000004
+f 02bb3a84 f^2 000eebb1 f^3 00005181
+
+coefs 3531729c08fb668cfd068a47003ef0f934e8d895092b2974fd011f9900398001349ebf28095b3ebafcfc3ec70033bd9e345323e5098b9d85fcf7ef7d002da969
+c0 349ebf28 c1 095b3eba c2 fcfc3ec7 c3 0033bd9e
+calculated 00d34607 0.82528728
+sigmoid from psum   0.82528732
+///// for next layer calculation for neuron           7
+ -> d 0078f755 w fa3d3297 prod fffd471ed8e97d23 sum ffffffd471ed8e97d23
+   /f/  0.472524 -5.760947 -2.722186 sum -2.722186
+ -> d 00598477 w f907325f prod fffd8fe4fb586629 sum ffffffad703d441e34c
+   /f/  0.349678 -6.971888 -2.437912 sum -5.160098
+ -> d ffbb1b00 w 0341c134 prod ffff1f9edc5c7c00 sum ffffff9f6a2b09e5f4c
+   /f/  -0.269119 3.256854 -0.876482 sum -6.036580
+ -> d ff8590cb w 0548afb9 prod fffd7910a59867b3 sum ffffff76fb35636c6ff
+   /f/  -0.478259 5.283931 -2.527090 sum -8.563670
+ -> d ff3c80ae w 02c08a2f prod fffde5f857f96bf2 sum ffffff555abae3032f1
+   /f/  -0.763662 2.752109 -2.101679 sum -10.665349
+ -> d 007d44f1 w 059ca567 prod 0002beffa7b211f7 sum ffffff814ab55e244e8
+   /f/  0.489333 5.611899 2.746088 sum -7.919261
+ -> d ffe5bcd7 w f9cfd7ca prod 0000a283adb892a6 sum ffffff8b72f039ad78e
+   /f/  -0.102587 -6.188114 0.634822 sum -7.284439
+ -> d 0085aeb7 w 002ffa8d prod 0000190de9d8f0cb sum ffffff8d03ced73c859
+   /f/  0.522197 0.187417 0.097869 sum -7.186570
+ -> d 0085c424 w fed2b233 prod ffff628fba8f1b2c sum ffffff832cca802e385
+   /f/  0.522524 -1.176968 -0.614994 sum -7.801565
+ -> d 001e2407 w fca3f9e4 prod ffff9abe4057e53c sum ffffff7cd8ae85ac8c1
+   /f/  0.117737 -3.359468 -0.395534 sum -8.197099
+ -> d 0012cbe5 w 06aa290d prod 00007d45c7ae07a1 sum ffffff84ad0b008d062
+   /f/  0.073424 6.664689 0.489346 sum -7.707753
+ -> d 00f883f8 w 05332d30 prod 00050c4200335680 sum ffffffd5712b03c26e2
+   /f/  0.970764 5.199908 5.047882 sum -2.659871
+ -> d 00b616d8 w 00072f55 prod 0000051c4a8f3db8 sum ffffffd5c2efacb649a
+   /f/  0.711286 0.028066 0.019963 sum -2.639908
+ -> d ff3af78f w 03663a22 prod fffd623891e546fe sum ffffffabe678cb0ab98
+   /f/  -0.769660 3.399325 -2.616324 sum -5.256232
+ -> d 00a33f05 w f9245607 prod fffba07295566723 sum ffffff65eda220712bb
+   /f/  0.637680 -6.858062 -4.373252 sum -9.629484
+ -> d 00294ab1 w fa13668b prod ffff0b60ef51141b sum ffffff56a3b115826d6
+   /f/  0.161296 -5.924217 -0.955552 sum -10.585036
+res&psum ffffff0000000000000
+  Saturated sum is ffffff56a3b115826d6
+neuronix 2ad neuronoffset ab neuronaddr 0000d3 neuronbase 00000004
+f 011d88ac f^2 00027cf3 f^3 0000058c
+
+coefs 00006ff000006fef000037f6000012eb00006c7e00006c7e0000363d00001256000069280000692700003492000011c6000065ec000065eb000032f40000113a
+c0 00006928 c1 00006927 c2 00003492 c3 000011c6
+calculated 000001a8 0.00002527
+sigmoid from psum   0.00002529
+pos           0 hex 0003457a real 0.01277888
+pos           1 hex 00003743 real 0.00084323
+pos           2 hex 00001e82 real 0.00046551
+pos           3 hex 00ff56a8 real 0.99741602
+pos           4 hex 001e59c1 real 0.11855704
+pos           5 hex 00000001 real 0.00000006
+pos           6 hex 00d34607 real 0.82528728
+pos           7 hex 000001a8 real 0.00002527
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_objection.svh(1270) @ 2646100: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_report_server.svh(847) @ 2646100: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+Quit count :     0 of     3
+** Report counts by severity
+UVM_INFO :    4
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+[fun]     1
+
+$finish called from file "/home/morris/uvm-1.2/src/base/uvm_root.svh", line 517.
+$finish at simulation time              2646100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 26461000 ps
+CPU Time:      0.620 seconds;       Data structure size:   0.2Mb
+Fri Nov  5 17:14:45 2021
